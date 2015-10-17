@@ -1,0 +1,27 @@
+{
+    "name": "triga/presenter",
+    "description": "Allows to present the same data set in different variants, e.g. JSON.",
+    "keywords": [
+        "laravel",
+        "data presenter",
+        "json"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kamil Fojuth",
+            "email": "fojuth@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Triga\\Presenter\\": "src/"
+        }
+    }
+}
